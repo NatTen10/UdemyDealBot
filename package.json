@@ -1,0 +1,15 @@
+{
+  "name": "udemybot",
+  "version": "1.0.0",
+  "description": "Get Udemy Deals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://src.thetestpeople.com/nathanial-sydenham/udemy-deal-bot.git"
+  },
+  "author": "Nathanial Sydenham",
+  "license": "MIT"
+}
