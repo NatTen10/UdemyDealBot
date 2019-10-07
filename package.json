@@ -14,7 +14,8 @@
   "license": "MIT",
   "devDependencies": {
     "dotenv": "^8.1.0",
-    "jasmine": "^3.5.0"
+    "jasmine": "^3.5.0",
+    "jsdoc": "^3.6.3"
   },
   "dependencies": {
     "request": "^2.88.0"
