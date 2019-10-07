@@ -4,4 +4,4 @@ const udemy = require('./api/udemy.js');
 const slack = require('./api/slack.js');
 
 // Post a message to slack
-slack.postToSlack(https,"Hello, RJ");
+slack.postToSlack(https,"Hello, World");

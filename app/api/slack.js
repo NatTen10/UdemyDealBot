@@ -6,7 +6,7 @@ const postToSlack = (https, message) => {
 
     let options = {
         hostname: 'hooks.slack.com',
-        path: '/services/T08MK1CBW/BP41PSMK8/2Lr8cZTTl2pHIqHpSm0kxJDb',
+        path: '/services/T08MK1CBW/BP61N5AQ7/kCxGdgzu3QyuD7TG84gnEiap',
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -15,7 +15,7 @@ const postToSlack = (https, message) => {
     }
 
     const req = https.request(options, res => {
-        console.log(`STATUS: ${rest.statusCode}`);
+        console.log(`STATUS: ${res.statusCode}`);
         console.log(`HEADERS: ${JSON.stringify(res.headers)}`);
         res.setEncoding('utf8');
         res.on('data', (chunk) => {
